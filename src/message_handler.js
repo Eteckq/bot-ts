@@ -15,8 +15,21 @@ function handlePrivateMessage(client, message) {
         `\n[b][color=#5D77FF]Hello ${invokername}![/color][/b] msg: ${msg} cmd: ${cmd}`
       );
       break;
-    case "wisielec":
+    case "yt":
+      if (args.length > 1) {
+        getAndStartYTStream(args[0]);
+      } else {
+        sendPrivateMessage(
+          client,
+          invokerid,
+          `\n[b][color=#5D77FF]Il manque l'url de la vidéo: yt UrlYt[/color][/b]`
+        );
+      }
   }
+}
+
+function getAndStartYTStream(url) {
+  console.log("start " + url);
 }
 
 /**
