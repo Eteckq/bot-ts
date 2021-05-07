@@ -1,0 +1,26 @@
+{
+  "name": "bot-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "node-ts": "^5.1.1",
+    "ytdl-core": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eteckq/bot-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eteckq/bot-ts/issues"
+  },
+  "homepage": "https://github.com/Eteckq/bot-ts#readme"
+}
